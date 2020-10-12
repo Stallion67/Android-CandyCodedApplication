@@ -75,10 +75,8 @@ public class DetailActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+      createShareIntent();
         return super.onOptionsItemSelected(item);
-      //  this.createShareIntent();
-
-
     }
        // Separate methord for calling intent
        private void createShareIntent(){
